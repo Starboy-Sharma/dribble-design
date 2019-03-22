@@ -1,0 +1,155 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <!-- Import Animation CSS -->
+      <link rel="stylesheet" type="text/css" href="css/csshake.css" />
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+
+      <!-- Import main.css -->
+      <link rel="stylesheet" href="css/main.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+    <header class="header">      
+      <div class="container">
+      
+        <div class="col s6">
+          <a href="#" class="left"> <i class="material-icons">menu</i> </a>
+        </div>
+
+        <div class="col s6 avatar right">
+          <img src="images/designer1.jpg" class="responsive-img right">
+        </div>
+
+      </div>
+
+    </header>
+
+    <!-- Main Section -->
+
+    
+    <div class="container main">
+      
+        <p class="date"> 16/03/2019 </p>
+
+        <div class="news-head">
+          <h4> News Today </h4>
+        </div>
+
+        <div class="col s12">
+          <input placeholder="Political news, today" type="text" class="search" >
+
+          <div class="search-icon">
+              <i class="material-icons">send</i>
+          </div>
+
+        </div>
+  
+
+    </div>
+
+    <!-- Categories -->
+    
+    <div class="container-fluid category">
+
+      <div class="row">
+ 
+        <div class="col s2">
+          <i class="material-icons">cloud</i>
+          <p> Weather </p>
+        </div>
+        <div class="col s2">
+          <i class="material-icons">account_balance</i>
+          <p> Politics </p>
+        </div> 
+        <div class="col s2">
+          <i class="material-icons">directions_bike</i>
+          <p> Sports </p>
+        </div>  
+        <div class="col s2">
+          <i class="material-icons">games</i>
+          <p> Games </p>
+        </div> 
+        <div class="col s2">
+          <i class="material-icons">traffic</i>
+          <p> Traffic </p>
+        </div> 
+        <div class="col s1"></div>
+
+      </div>
+
+    </div>
+
+    <div class="news-feed">
+      
+        <div class="row">
+
+            <img src="images/news.jpg" class="responsive-img">
+        
+
+          <div class="container">
+
+            <div class="col s12">
+
+              <div class="cat">
+                <p> Political News </p>
+              </div>
+
+              <div class="news-head">
+                  <h5> Luova Studio <br>  conference 2019 </h5>
+              </div>
+
+
+              <div class="news-short_desc">
+                <p>
+                    Lorem Ipsum has been the industry's standard the 1500s, when an unknown a galley of type   . . .
+                </p>
+              </div>
+
+
+            </div>
+
+          </div>
+
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <p class="center-align"> &copy; 2019 Pankaj Sharma </p>
+      <a href="https://dribbble.com/shots/6189021-News-App-UI/attachments" class="valign valign-wrapper"> Inspire By: Dribble <img src="https://cdn.freebiesupply.com/logos/large/2x/dribbble-icon-1-logo-png-transparent.png" alt=""> </a>
+    </footer>
+
+      <!-- Load jQyery -->
+      <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      <script>
+
+        // If device width is not set to mobile width
+        let deviceWidth = $(window).width();
+
+        if (deviceWidth > 338)
+        {
+          alert("Dear User, This view is only available for mobo devices");
+        } else {
+          console.log("This view is ok");
+        }
+
+      </script>
+    </body>
+  </html>
